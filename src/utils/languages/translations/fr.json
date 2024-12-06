@@ -1,0 +1,9 @@
+{
+  "input_placeholder":"Quel est ton plat préféré...",
+  "microphone": "Microphone",
+  "send": "Envoyer",
+  "bot_typing": "Le bot est en train d'écrire...",
+  "listening": "Écoute...",
+  "attach_file": "Joindre un fichier",
+  "remove_attachment": "Supprimer la pièce jointe"
+}

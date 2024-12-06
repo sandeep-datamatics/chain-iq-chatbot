@@ -1,0 +1,21 @@
+.pushButton {
+  background: #fff 0 0 no-repeat padding-box;
+  border: 1px solid #628bbb;
+  border-radius: 4px;
+  color: #628bbb;
+  display: inline-flex;
+  font-weight: lighter;
+  line-height: 20px;
+  margin: 4.5px 8px 4.5px 0;
+  overflow: hidden;
+  padding: 5px 10px;
+  position: relative;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.pushButton[aria-pressed="true"] {
+  background-color: rgb(0, 99, 177);
+  border-color: rgb(0, 99, 177);
+  color: white;
+}

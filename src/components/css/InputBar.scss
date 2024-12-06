@@ -1,0 +1,141 @@
+.inputboxwrap {
+  position: relative;
+  padding-top: 20px;
+
+  .bottyping {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  .inputbox_container {
+    border: 1px solid #e0e0e0;
+    border-bottom: 2px solid #007bff;
+    border-radius: 10px;
+    position: relative;
+    width: calc(100% - 10px);
+    padding: 10px 10px 5px 10px;
+    background-color: #fff;
+
+    .chat_input_search {
+      width: 100%;
+      padding: 0px;
+      border: none;
+      font-size: 14px;
+      color: #333;
+      outline: none;
+      resize: none;
+      position: relative;
+      height: 40px;
+      overflow-y: auto;
+
+      &:focus {
+        border-color: #007bff;
+      }
+    }
+
+    .input_textarea {
+      position: relative;
+
+      // min-height: 100px;
+      .file_preview {
+        position: relative;
+        display: inline-block;
+        margin-bottom: 5px;
+
+        .file_preview_image {
+          width: 50px;
+          height: 50px;
+          object-fit: cover;
+        }
+
+        .file_preview_video {
+          width: 100px;
+          height: 50px;
+          object-fit: cover;
+        }
+
+        .file_preview_attachment {
+          border: 1px solid #ccc;
+          display: inline-block;
+          padding: 5px 10px;
+          background-color: #fff;
+          border-radius: 5px;
+
+          svg {
+            font-size: 16px;
+          }
+
+          span {
+            display: inline-block;
+            margin-left: 5px;
+            font-size: 14px;
+          }
+        }
+
+        .remove_attach_file {
+          position: absolute;
+          top: -8px;
+          right: -14px;
+          padding: 0;
+          cursor: pointer;
+          color: #dc2828;
+        }
+      }
+    }
+
+    .inputbottom_controls {
+      display: flex;
+      justify-content: end;
+      gap: 5px;
+
+      .language_selector {
+        select {
+          background: #f1f1f1;
+          border: none;
+          height: 100%;
+          border-radius: 5px;
+          padding: 5px;
+
+          &:focus {
+            outline: none;
+            border: none;
+          }
+        }
+      }
+
+      .input_attach {
+        position: relative;
+
+        input {
+          width: 100%;
+          position: absolute;
+          opacity: 0;
+          left: 0;
+          height: 100%;
+          top: 0;
+          cursor: pointer;
+          z-index: 1;
+        }
+      }
+
+      .commoncontrolbtn {
+        position: relative;
+        padding: 10px;
+        color: #000;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #f1f1f1;
+        width: 35px;
+        height: 35px;
+      }
+
+      .voice_microphone {}
+
+      .sendbutton {}
+    }
+  }
+}

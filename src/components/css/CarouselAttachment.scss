@@ -1,0 +1,21 @@
+.carousel-container {
+  margin: 0 -10px;
+}
+.carousel-item-padding-40-px {
+  padding: 0 10px;
+}
+.slider__item__list {
+  background-color: #fff;
+  padding: 20px;
+  min-height: 315px;
+  .slider__item__image {
+    text-align: center;
+  }
+  .slider__item__data {
+    margin-bottom: 5px;
+  }
+}
+
+.slider__item__showcardwrap {
+  min-height: 280px;
+}
